@@ -110,7 +110,7 @@ Set the web url and list created by the SPFx app.
 
 ##### Create Item
 
-Set the web url and list created by the SPFx app.
+Set the web url and list created by the SPFx app. By default the new items will set the `Is Approved` field value to `false`. A notification will be sent when new items are created for approval. You can adjust this setting if you want to make all items available to the users.
 
 ##### Update Item
 
