@@ -86,7 +86,7 @@ This is a recurrence flow. It requires an app registration in
 
 ##### Recurrence
 
-The default is set to run at 10PM every day.
+The default is set to run at `10PM every day`.
 
 ##### Set Client ID
 
@@ -124,7 +124,7 @@ Set the email(s) for any new items created notification.
 
 ##### Recurrence
 
-The default is set to run at 10PM every day.
+The default is set to run at `10PM every day`.
 
 ##### Get Items
 
