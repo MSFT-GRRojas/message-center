@@ -1,1 +1,3 @@
 [[Home]]
+[[Installation]]
+[[User Guide]]
