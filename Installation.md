@@ -1,6 +1,6 @@
 ## Download Latest
 
-The required files will be available [here]() for download.
+The required files will be available [here](https://github.com/spsprinkles/message-center/releases) for download.
 
 ## SPFx Solution
 
