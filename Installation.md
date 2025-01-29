@@ -50,7 +50,7 @@ The DoD packages will target the appropriate graph endpoints.
 
 The flow will require an application registration with the following permissions to the Graph API:
 
-* ServiceHealth.Read.All
+* ServiceMessage.Read.All
 
 ### Import Flow Package
 
