@@ -5,7 +5,7 @@ The Message Center app is a solution that reads message center from a SharePoint
 
 ## Prerequisites
 Entra App Registration with the following API permissions consented on behalf the tenant:
-  - ServiceHealth.Read.All
+  - ServiceMessage.Read.All
 
 ## [[Installation]]
 

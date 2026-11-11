@@ -16,13 +16,13 @@ Note - If you choose not to make it available, then you must add the app manuall
 
 Access the site to store the message center items. Click on `New` and then `Page` to create a new modern page. Configure the page and click on the `+` icon to add a webpart. Find the `Message Center` app under the `Advanced` section.
 
-### Install Lists
+### Install List
 
-On initial load of the app, it will show you the installation dialog for creating the list. Click on `Install` to create the list.
+On initial load of the app, it will show you the installation dialog for creating the list. Click on `Install` to create the list.  This is required to store `Message Center` data to display on the app.
 
 #### Security
 
-Once the list is installed, the security dialog will be displayed. This app will utilize the default site owners, members and visitors group to control access to the app. By default, it will inherit the permission from the site. Click on `Configure` to break inheritance and set the default owners, members and visitors groups to the app. Click on `Refresh` to reload the page.
+Once the list is installed, the security dialog will be displayed. This app will utilize the default site owners, members and visitors group to control access to the app. By default, it will inherit the permissions from the site. Click on `Configure` to break inheritance and set the default owners, members and visitors groups to the app. Click on `Refresh` to reload the page.
 
 #### Publish Page
 
@@ -32,7 +32,7 @@ Review the webpart configuration options and save/publish the page.
 
 ### Overview
 
-The application uses two flows to add items to the SharePoint list and cleanup items older than 60 days. Download the appropriate files for your environment.
+The application uses two Power Automate Flows to retrieve data from the API call and add items to the SharePoint list.  There is a separate Power Automate Flow used to clean up items older than 60 days.  The `Message Center` releases can be found [here](https://github.com/spsprinkles/message-center/releases).   Download the appropriate files for your environment and ensure to download the Clean Up zip file as well.  The Clean Up flow will ensure your SPO list does not grow too large.  
 
 #### Default Environment
 
@@ -45,6 +45,9 @@ The DoD packages will target the appropriate graph endpoints.
 
 * MessageCenterDoD.zip
 * MessageCenterCleanupDoD.zip
+
+#### Higher Impact Levels
+
 
 #### Requirements
 
